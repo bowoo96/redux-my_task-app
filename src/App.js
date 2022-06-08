@@ -1,14 +1,20 @@
-import './App.css';
-import SubmitContent from './components/SubmitContent';
-import ItemList from './components/ItemList';
+import "./App.css";
+import SubmitContent from "./components/Contents/SubmitContent";
+import ItemList from "./components/Contents/ItemList";
+
+import { useSelector } from "react-redux";
 
 function App() {
-  return (
-    <div className="App">
-      <SubmitContent />
-      <ItemList />
-    </div>
-  );
+    const itemListShow = useSelector((state) => state.item.show);
+
+    return (
+        <div className="App">
+            <div className="section-center">
+                <SubmitContent />
+                {itemListShow && <ItemList />}
+            </div>
+        </div>
+    );
 }
 
 export default App;
