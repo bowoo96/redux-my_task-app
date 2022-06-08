@@ -1,10 +1,14 @@
 # Item list-React
 
+<br/>
+<br/>
+
 # 구현된 모습
 
----
+
 <br/>
 <br/>
+
 # Skill & Tools
 
 - HTML
@@ -12,9 +16,10 @@
 - REACT
 - REDUX-TOOLKIT
 
----
+
 <br/>
 <br/>
+
 # 기능
 
 1. 리스트 추가
@@ -48,23 +53,26 @@
         - Item
     - Button
 
----
+
 <br/>
 <br/>
+
 # 이 프로젝트를 하는 목적
 
 1. React, Redux-toolkit 연습
 
----
+
 <br/>
 <br/>
+
 # 어려웠던 점 & 해결방법
 
 1. 
 
----
+
 <br/>
 <br/>
+
 # 회고
 
 - 👻 **승원**
